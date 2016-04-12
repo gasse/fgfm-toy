@@ -3,6 +3,7 @@ data
 ydeps
 loss
 figs
+README.html
 .Rproj.user
 *.Rproj
-README.html
+.Rhistory
