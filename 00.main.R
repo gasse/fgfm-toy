@@ -14,7 +14,7 @@ n.train.reps = c(50, 100, 200, 500, 1000, 2000, 5000)
 n.xs = 4
 x.dim = 2
 
-n.zs = 1
+n.zs = 2
 z.dim = 2
 
 n.ys = 8
