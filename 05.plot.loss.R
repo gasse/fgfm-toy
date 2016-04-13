@@ -65,7 +65,7 @@ for (bn.t in bn.types) {
     load(sprintf("loss/%ix%i.%iz%i.%iy%i.bn.%s.seed%i/loss.train%04i.test%04i.reps%04i.rda",
                  n.xs, x.dim, n.zs, z.dim, n.ys, y.dim, bn.t, seed, n.train, n.test, n.reps))
     
-    all.loss[, methods, as.character(n.train), losses] = loss[losses, unlist(m.id[methods]), ]
+    all.loss[, methods, as.character(n.train), losses] = t(loss[losses, unlist(m.id[methods]), ])
   }
   
   mean.loss = apply(all.loss, 2:4, mean)
