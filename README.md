@@ -5,7 +5,7 @@ These scripts are made available for reproducibility purpose, and are neither we
 
 # Factorized GFM
 
-This repository contains the R code used to run the synthetic experiment in...
+This repository contains the R code used to run the synthetic experiment in the ECML 2016 paper [*F-measure Maximization in Multi-Label Classification with Conditionally Independent Label Subsets*](http://ecmlpkdd2016.org/program.html#Accepted).
 
 ## Dependencies
 
